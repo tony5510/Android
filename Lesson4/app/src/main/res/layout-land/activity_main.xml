@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#888c73"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="98dp"
+            android:layout_height="76dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.137"
+            app:srcCompat="@drawable/beatlesjpg" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="438dp"
+            android:layout_height="35dp"
+            android:text="Yesterday (Remastered 2009)"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="The Beatles"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.008"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <SeekBar
+            android:id="@+id/seekBar3"
+            android:layout_width="602dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.499"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar3"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/middle" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar3"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/left" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="77dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar3"
+            app:layout_constraintVertical_bias="0.044"
+            app:srcCompat="@drawable/right" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
