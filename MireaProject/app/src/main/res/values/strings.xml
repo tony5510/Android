@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Authorization</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate
+with Firebase.</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified:
+%2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="data_fragment">Data Fragment</string>
+    <string name="web_view_fragment">Web View Fragment</string>
+    <string name="service_fragment">Service Fragment</string>
+    <string name="compass_fragment">Compass Fragment</string>
+    <string name="camera_fragment">Camera Fragment</string>
+    <string name="recorder_fragment">Recorder Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="file_fragment">File Fragment</string>
+    <string name="http_fragment">Https Connection</string>
+    <string name="map_fragment">Map Fragment</string>
+    <string name="podcast">Что делать, если хочешь работать в программировании, но не знаешь, с какого края к этому подступиться? Для начала — разобраться, что такое программирование и какие в этой сфере есть профессии. В нашем аудиокурсе поговорим об этом, а ещё узнаем, как устроена работа в IT, какие нужны навыки, чтобы начать кодить, и что вам предстоит делать каждый рабочий день. Всё это — в компании профессиональных разработчиков и разработчиц.</string>
+    <string name="car">Ford Mustang GT - это высокопроизводительная версия Ford Mustang, которая предлагает улучшенные характеристики и мощность по сравнению с базовыми моделями Mustang.
+
+Mustang GT оснащается мощным 5,0-литровым V8 двигателем, который развивает впечатляющую мощность. В зависимости от поколения и модификации, Mustang GT может предлагать от 400 до более 450 лошадиных сил. Это позволяет автомобилю разгоняться до 100 км/ч за менее чем 5 секунд и достигать высоких скоростей.
+
+В дополнение к мощному двигателю Mustang GT обладает спортивной настройкой подвески, которая обеспечивает улучшенную управляемость и отзывчивость. Автомобиль также может быть доступен с различными опциями трансмиссии, включая ручную коробку передач или автоматическую коробку передач с двумя сцеплениями.
+
+Дизайн Mustang GT также отличается от базовых моделей Mustang. Он может иметь более агрессивные передние бамперы, специальные колесные диски, аэродинамические обвесы и другие спортивные детали, которые придают ему выдающийся вид на дороге.
+
+В салоне Mustang GT обычно предлагаются комфортные и спортивные сиденья, современные технологические возможности и высококачественные материалы отделки.
+
+Ford Mustang GT - это выбор для тех, кто ищет спортивный автомобиль с мощным двигателем, улучшенной производительностью и агрессивным дизайном. Он представляет собой комбинацию стиля, энергии и возможности ощутить истинную мощь автомобиля на дороге.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

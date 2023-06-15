@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="763dp">
+
+        <EditText
+            android:id="@+id/editTextFilename"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Введите имя файла"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.104" />
+
+        <EditText
+            android:id="@+id/editTextInputText"
+            android:layout_width="329dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="Введите сообщение"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextFilename"
+            app:layout_constraintVertical_bias="0.07" />
+
+        <Button
+            android:id="@+id/buttonEncrypt"
+            android:layout_width="324dp"
+            android:layout_height="48dp"
+            android:text="Зашифровать сообщение"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextInputText"
+            app:layout_constraintVertical_bias="0.104" />
+
+        <Button
+            android:id="@+id/buttonDecrypt"
+            android:layout_width="324dp"
+            android:layout_height="51dp"
+            android:text="Расшифровать сообщение"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonEncrypt"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <TextView
+            android:id="@+id/textViewFileText"
+            android:layout_width="333dp"
+            android:layout_height="124dp"
+            android:text="Сообщение:"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonDecrypt"
+            app:layout_constraintVertical_bias="0.174" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dataFragment"
+            android:icon="@drawable/baseline_data_usage_24"
+            android:title="@string/data_fragment" />
+        <item
+            android:id="@+id/webViewFragment"
+            android:icon="@drawable/baseline_web_24"
+            android:title="@string/web_view_fragment" />
+        <item
+            android:id="@+id/serviceFragment"
+            android:icon="@drawable/baseline_play_circle_outline_24"
+            android:title="@string/service_fragment" />
+        <item
+            android:id="@+id/rotationFagment"
+            android:icon="@drawable/baseline_360_24"
+            android:title="@string/compass_fragment" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/baseline_camera_24"
+            android:title="@string/camera_fragment" />
+        <item
+            android:id="@+id/recorderFragment"
+            android:icon="@drawable/baseline_record_voice_over_24"
+            android:title="@string/recorder_fragment" />
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/profile_fragment" />
+        <item
+            android:id="@+id/fileFragment"
+            android:icon="@drawable/baseline_file_open_24"
+            android:title="@string/file_fragment" />
+        <item
+            android:id="@+id/httpsConnectionFragment"
+            android:icon="@drawable/baseline_http_24"
+            android:title="@string/http_fragment" />
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@drawable/baseline_map_24"
+            android:title="@string/map_fragment" />
+    </group>
+</menu>

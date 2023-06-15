@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="791dp">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="264dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="ФИО"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.161" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="264dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Какая то информация"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText1"
+            app:layout_constraintVertical_bias="0.001" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="261dp"
+            android:layout_height="54dp"
+            android:text="Сохранить"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2"
+            app:layout_constraintVertical_bias="0.112" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
